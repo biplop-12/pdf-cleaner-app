@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 st.set_page_config(page_title="PDF Cleaner", page_icon="⚖️")
-st.title("⚖️ Law Reviewer Watermark Remover")
+st.title(" Watermark Remover")
 
 uploaded_file = st.file_uploader("Upload your PDF", type="pdf")
 
