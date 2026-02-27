@@ -2,7 +2,7 @@ import streamlit as st
 import fitz  # PyMuPDF
 
 st.set_page_config(page_title="PDF Scrub", page_icon="⚖️")
-st.title("⚖️ Law Reviewer Watermark Remover")
+st.title("Watermark Remover Test App")
 st.write("Upload your PDF to identify and remove background watermarks.")
 
 uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
